@@ -89,6 +89,7 @@ export const LOCKFILE_FILENAME = 'yarn.lock';
 export const METADATA_FILENAME = '.yarn-metadata.json';
 export const TARBALL_FILENAME = '.yarn-tarball.tgz';
 export const CLEAN_FILENAME = '.yarnclean';
+export const LINKMAP_FILENAME = '.yarn-linkmap.json';
 
 export const NPM_LOCK_FILENAME = 'package-lock.json';
 export const NPM_SHRINKWRAP_FILENAME = 'npm-shrinkwrap.json';

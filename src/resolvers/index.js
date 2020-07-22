@@ -17,6 +17,7 @@ import ExoticTarball from './exotics/tarball-resolver.js';
 import ExoticGitHub from './exotics/github-resolver.js';
 import ExoticFile from './exotics/file-resolver.js';
 import ExoticLink from './exotics/link-resolver.js';
+import ExoticLinkMap from './exotics/linkmap-resolver.js';
 import ExoticGitLab from './exotics/gitlab-resolver.js';
 import ExoticGist from './exotics/gist-resolver.js';
 import ExoticBitbucket from './exotics/bitbucket-resolver.js';
@@ -27,6 +28,7 @@ const exotics: Set<Class<$Subtype<BaseResolver>>> = new Set([
   ExoticGitHub,
   ExoticFile,
   ExoticLink,
+  ExoticLinkMap,
   ExoticGitLab,
   ExoticGist,
   ExoticBitbucket,
