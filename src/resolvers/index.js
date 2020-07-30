@@ -21,6 +21,7 @@ import ExoticLinkMap from './exotics/linkmap-resolver.js';
 import ExoticGitLab from './exotics/gitlab-resolver.js';
 import ExoticGist from './exotics/gist-resolver.js';
 import ExoticBitbucket from './exotics/bitbucket-resolver.js';
+import ExoticTwoSigma from './exotics/twosigma-resolver.js';
 
 const exotics: Set<Class<$Subtype<BaseResolver>>> = new Set([
   ExoticGit,
@@ -32,6 +33,7 @@ const exotics: Set<Class<$Subtype<BaseResolver>>> = new Set([
   ExoticGitLab,
   ExoticGist,
   ExoticBitbucket,
+  ExoticTwoSigma,
 ]);
 
 export function getExoticResolver(pattern: string): ?Class<$Subtype<BaseResolver>> {
